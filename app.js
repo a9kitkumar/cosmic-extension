@@ -7,5 +7,5 @@ const app = express()
 
 app.use(express.static('./build'));
 
-app.listen(process.env.PORT function () {
+app.listen(process.env.PORT, function () {
 });
