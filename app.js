@@ -2,10 +2,15 @@
 //   res.end(`Hi!`)
 // }
 
-const express = require('express')
-const app = express()
+// const express = require('express');
 
-app.use(express.static('./build'));
+var connect = require("connect");
+
+var app = connect().use(connect.static(__dirname + '/build'));
+
+// app.listen(8180);
+
+// app.use(express.static('./build'));
 
 app.listen(process.env.PORT, function () {
 });
