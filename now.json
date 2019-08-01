@@ -6,7 +6,7 @@
       "use": "@now/node"
     },
       {
-        "src": "/build/index.html",
+        "src": "/dist/index.html",
         "use": "@now/static"
       }
     ]
