@@ -1,9 +1,6 @@
 {
   "name": "cosmic-deploy-extension",
   "private": true,
-  "engines": {
-    "node": "10.12.0"
-  },
   "version": "0.1.0", 
   "dependencies": {
     "bootstrap": "^4.3.1",
