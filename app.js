@@ -21,5 +21,4 @@ var app = connect();
 
 app.use(serveStatic('./build')); 
 
-app.listen(process.env.PORT, function () {
-});
+app.listen();
